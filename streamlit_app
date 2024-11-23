@@ -1,0 +1,50 @@
+import streamlit as st
+
+# Main content
+st.title("Maryam Rasheed")
+st.header("Digital Resume")
+
+# Introduction
+st.write(
+    """
+    I am a Young Dev intern with a passion for Data Science. 
+    I have experience in Data Analysis, where I’ve worked on projects involving data management and visualization. 
+    My professional goal is to become a skilled Data Scientist, contributing to impactful data-driven solutions.
+    """
+)
+
+# Skills Section
+st.subheader("Skills")
+st.write("- Programming: Python, R, SQL")
+st.write("- Data Analysis and Visualization: Pandas, Matplotlib, Power BI")
+st.write("- Web Development: Django, Flask, HTML, CSS")
+st.write("- Machine Learning: Scikit-learn, TensorFlow")
+
+# Experience Section
+st.subheader("Experience")
+st.write("**Young Dev Intern** - Ongoing (November 18, 2024 - Present)")
+st.write("- Focused on Data Analysis and AI tools.")
+st.write("- Gained hands-on experience in data visualization and verification tasks.")
+
+# Education Section
+st.subheader("Education")
+st.write("**BS Computer Science** - Fazaia College of Education for Women (2022 - 2026)")
+st.write("- Relevant courses: Data Science, Artificial Intelligence, Software Development")
+
+# Projects Section
+st.subheader("Projects")
+st.write("**Project 1: Data Visualization Dashboard** ")
+st.write("- Built a dashboard to visualize sales trends using Python and Power BI.")
+
+st.write("**Project 2: Decentralized Identity Verification System** ")
+st.write("- Collaborated with a partner to design and implement a secure identity verification solution.")
+
+# Certifications Section
+st.subheader("Certifications")
+st.write("- **Getting Started with Data Analytics on AWS** - Coursera")
+st.write("- **Python Basics** - Uniathenia in partnership with Cambridge International Qualifications, UK")
+
+# Hobbies Section
+st.subheader("Hobbies")
+st.write("- **Learning AI tools:** Enjoy exploring tools like RapidMiner and Alteryx.")
+st.write("- **Creative Writing:** Penning down ideas and technical blogs.")
